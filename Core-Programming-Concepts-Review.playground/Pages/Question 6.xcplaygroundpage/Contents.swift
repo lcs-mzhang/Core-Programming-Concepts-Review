@@ -1,6 +1,6 @@
 /*:
  # Question 6
-
+ 
  Write an `if-else if-else` statement that will print different statements based on what range `currentHeartRate` falls into.
  
  Below is a list of ranges and the associated statements
@@ -17,6 +17,34 @@
 let currentHeartRate = 128
 
 // Answer question 6 below
+if currentHeartRate < 100
+{
+    print("dude go exercise")
+}
+else if currentHeartRate > 100 && currentHeartRate < 120
+{
+    print("You are in the Very Light zone. Activity in this zone helps with recovery.")
+}
+else if currentHeartRate > 121 && currentHeartRate < 140
+{
+    print("You are in the Light zone. Activity in this zone helps improve basice endurance and fat burning.")
+}
+else if currentHeartRate > 141 && currentHeartRate < 160
+{
+    print("You are in the Moderate zone. Activity in this zone helps improve aerobic fitness.")
+}
+else if currentHeartRate > 161 && currentHeartRate < 180
+{
+    print("You are in the Hard zone. Activity in this zone increases maximum performance capacity for shorter sessions.")
+}
+else if currentHeartRate > 181 && currentHeartRate < 200
+{
+    print("You are in the Maximum zone. Activity in this zone helps fit athletes develop speed.")
+}
+else
+{
+    print("dude youre going to die stop")
+}
 
 
 /*:
@@ -31,10 +59,10 @@ let currentHeartRate = 128
  ### Learning Goals - Programming
  
  * Goal 5
-    * *Knowledge*
-        * I can write concise statements using Boolean operators or pattern matching to check for multiple conditions.
+ * *Knowledge*
+ * I can write concise statements using Boolean operators or pattern matching to check for multiple conditions.
  
  * Goal 6
-    * *Knowledge*
-        * I can use comparison operators and arithmetic operators and understand operator precedence (order of operations).
+ * *Knowledge*
+ * I can use comparison operators and arithmetic operators and understand operator precedence (order of operations).
  */
