@@ -21,7 +21,16 @@
  
  */
 // Answer question 4 below
-
+let diner : Int
+print("The number of diners will always be a whole number as there will never be less than a whole person eating.")
+let saladBar : Double
+let soup : Double
+let mainCourse : Double
+let pizzaOven : Double
+print("The mass of food can potentially be in decimal form, therefore there data should be stored as a double.")
+let date : String
+let timeFrame : String
+print("The date and time can potentially be stored as numbers, but the format given in the example requires text to be stored, so it must be stored as a string. ")
 /*:
  ## Now share your understanding
  
