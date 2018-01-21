@@ -18,7 +18,15 @@
  
  */
 // Answer question 2 below
+var commitNumber : Int
+var forkNumber : Int
+print("These two values are expected to change over time, therefore they should be categorized as variables")
 
+let yearCreated : Int
+let monthCreated : Int
+let dayCreated : Int
+
+print("The date of creation of a document is not expected to change, so they should be constants")
 /*:
  ## Now share your understanding
  

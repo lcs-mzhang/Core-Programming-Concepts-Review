@@ -27,6 +27,8 @@ let verticalTrans = 5.0
 let horizontalTrans = 2.0
 let verticalScale = 0.5
 
+//These variable names can also be a, h and k. 
+
 // Set the independent variable value
 let input = 100.0
 
