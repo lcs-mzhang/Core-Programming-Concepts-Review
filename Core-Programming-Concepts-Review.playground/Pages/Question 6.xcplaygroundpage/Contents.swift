@@ -21,23 +21,23 @@ if currentHeartRate < 100
 {
     print("dude go exercise")
 }
-else if currentHeartRate > 100 && currentHeartRate < 120
+else if currentHeartRate >= 100 && currentHeartRate <= 120
 {
     print("You are in the Very Light zone. Activity in this zone helps with recovery.")
 }
-else if currentHeartRate > 121 && currentHeartRate < 140
+else if currentHeartRate > 120 && currentHeartRate <= 140
 {
     print("You are in the Light zone. Activity in this zone helps improve basice endurance and fat burning.")
 }
-else if currentHeartRate > 141 && currentHeartRate < 160
+else if currentHeartRate > 140 && currentHeartRate <= 160
 {
     print("You are in the Moderate zone. Activity in this zone helps improve aerobic fitness.")
 }
-else if currentHeartRate > 161 && currentHeartRate < 180
+else if currentHeartRate > 160 && currentHeartRate <= 180
 {
     print("You are in the Hard zone. Activity in this zone increases maximum performance capacity for shorter sessions.")
 }
-else if currentHeartRate > 181 && currentHeartRate < 200
+else if currentHeartRate > 180 && currentHeartRate <= 200
 {
     print("You are in the Maximum zone. Activity in this zone helps fit athletes develop speed.")
 }
