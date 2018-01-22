@@ -24,20 +24,22 @@ let isSunny = true
 
 // Answer question 5 below
 
-let isNiceWeather : Bool
+//let isNiceWeather : Bool
 
-if temperatureInCelsius > 20 && isSunny
-{
-    isNiceWeather = true
-}
-else if isRaining == false
-{
-    isNiceWeather = true
-}
-else
-{
-    isNiceWeather = false
-}
+//if temperatureInCelsius > 20 && isSunny
+//{
+//    isNiceWeather = true
+//}
+//else if isRaining == false
+//{
+//    isNiceWeather = true
+//}
+//else
+//{
+//    isNiceWeather = false
+//}
+
+let isNiceWeather = isSunny == true && temperatureInCelsius >= 20 || isRaining == false
 
 if isNiceWeather == true
 {

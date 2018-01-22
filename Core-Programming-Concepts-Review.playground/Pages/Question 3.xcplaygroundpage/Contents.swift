@@ -18,10 +18,15 @@
 var piggyBank = 0
 
 piggyBank += 10
+print(piggyBank)
 piggyBank += 20
+print(piggyBank)
 piggyBank /= 2
+print(piggyBank)
 piggyBank *= 3
+print(piggyBank)
 piggyBank -= 3
+print(piggyBank)
 
 
 /*:
