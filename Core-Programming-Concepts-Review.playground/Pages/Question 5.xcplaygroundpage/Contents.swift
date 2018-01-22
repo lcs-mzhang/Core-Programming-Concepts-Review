@@ -39,7 +39,7 @@ let isSunny = true
 //    isNiceWeather = false
 //}
 
-let isNiceWeather = isSunny == true && temperatureInCelsius >= 20 || isRaining == false
+let isNiceWeather = isSunny && temperatureInCelsius > 20 || !isRaining
 
 if isNiceWeather == true
 {

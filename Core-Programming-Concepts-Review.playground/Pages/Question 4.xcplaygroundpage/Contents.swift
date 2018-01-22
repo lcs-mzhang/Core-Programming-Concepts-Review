@@ -27,7 +27,7 @@ let saladBar : Double
 let soup : Double
 let mainCourse : Double
 let pizzaOven : Double
-print("The mass of food can potentially be in decimal form, therefore there data should be stored as a double.")
+print("The mass of food in kilograms can potentially be in decimal form, therefore there data should be stored as a double.")
 let date : String
 let timeFrame : String
 print("The date and time can potentially be stored as numbers, but the format given in the example requires text to be stored, so it must be stored as a string. ")
