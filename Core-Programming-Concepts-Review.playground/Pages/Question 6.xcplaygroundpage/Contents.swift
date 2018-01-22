@@ -14,14 +14,10 @@
  If `currentHeartRate` is above the listed zones, print some kind of warning asking the user to slow down.
  */
 
-let currentHeartRate = 128
+let currentHeartRate = 202
 
 // Answer question 6 below
-if currentHeartRate < 100
-{
-    print("dude go exercise")
-}
-else if currentHeartRate >= 100 && currentHeartRate <= 120
+if currentHeartRate >= 100 && currentHeartRate <= 120
 {
     print("You are in the Very Light zone. Activity in this zone helps with recovery.")
 }
@@ -41,7 +37,7 @@ else if currentHeartRate > 180 && currentHeartRate <= 200
 {
     print("You are in the Maximum zone. Activity in this zone helps fit athletes develop speed.")
 }
-else
+else if currentHeartRate >= 200
 {
     print("dude youre going to die stop")
 }
