@@ -30,10 +30,10 @@ let verticalScale = 0.5
 //These variable names can also be a, h and k. 
 
 // Set the independent variable value
-let input = 100.0
+let independentVariable = 100.0
 
 // Calculate the dependent variable value
-let y = verticalScale * pow(input - horizontalTrans, 2) + verticalTrans
+let y = verticalScale * pow(independentVariable - horizontalTrans, 2) + verticalTrans
 
 /*:
  In other words:
